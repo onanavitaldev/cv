@@ -1,0 +1,45 @@
+/* By WebByte Agency with ONANA vital 👽👨‍💻❤️👌 */
+
+h1{color: var(--bg);animation: zoomIn 1s; font-family: Kanit;}
+.btn
+{
+    background-color: var(--bg);
+    color: var(--white);
+    font-size: 14.5px;
+    font-weight: bold;
+    padding: 12px 18px;
+    border: none;
+    border-radius: var(--radius);
+    outline: none;
+    transition: var(--t);
+}
+.btn:hover
+{
+    background-color: var(--hover);
+    color: var(--bg);
+    transition: var(--t);
+}
+.btn-l
+{
+    background-color: var(--hover);
+    color: var(--bg);
+    font-size: 14.5px;
+    font-weight: bold;
+    padding: 12px 18px;
+    border: none;
+    border-radius: var(--radius);
+    outline: none;
+    transition: var(--t);
+}
+.btn-l:hover
+{
+    background-color: var(--bg);
+    color: var(--white);
+    transition: var(--t);
+}
+.link
+{
+    font-weight: bold;
+    text-decoration: underline;
+    transition: var(--t);
+}
