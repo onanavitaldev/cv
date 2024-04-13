@@ -1,0 +1,161 @@
+/* Feuille de style de mon site web */
+
+*::selection
+{
+    background-color: #000;
+    color: var(--white);
+}
+
+body::-moz-selection {
+  background-color: #fff;
+  color: var(--first-color);
+}
+
+body::selection {
+  background-color: #fff;
+  color: var(--first-color);
+}
+
+body::-webkit-scrollbar {
+  background-color: transparent;
+  border-radius: 50px;
+  width: 2px;
+  padding: 3em;
+  z-index: 1;
+}
+
+body::-webkit-scrollbar-corner {
+  background-color: #fff;
+  border-radius: 100vw;
+  width: 1px;
+  z-index: 1;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000 !important;
+  border-radius: 2px;
+  width: 0.1px;
+  border: none;
+  z-index: 1;
+}
+
+/* Composants */
+.btn
+{
+    background-color: var(--bg);
+    color: var(--white);
+    padding: 14px 18px 14px 18px;
+    transition: var(--t);
+}
+.btn-light
+{
+    background-color: var(--gray);
+    color: var(--bg);
+    padding: 14px 18px 14px 18px;
+    transition: var(--t);
+}
+.btn-light:hover
+{
+    background-color: var(--white);
+    color: var(--bg);
+}
+
+/*  */
+*,html
+{
+    /* background-color: var(--white); */
+    font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body
+{
+    height: 200vh;
+}
+
+/* Barre de navigation */
+nav
+{
+    background-color: var(--white);
+    border-bottom: 0.2px solid transparent;
+    color: var(--bg);
+    transition: var(--t);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 15px;
+    z-index: 1000;
+}
+nav #link a
+{transition: var(--t);}
+nav #link a:hover
+{
+    font-weight: bold;
+    text-decoration-line: underline;
+    transition: var(--t);
+}
+nav .btn
+{
+    background-color: var(--bg);
+    color: var(--white);
+    padding: 14px 18px 14px 18px;
+    transition: var(--t);
+}
+nav .btn:hover
+{
+    background-color: var(--gray);
+    color: var(--bg);
+    transform: scale(1.2);
+}
+
+#header
+{
+    background-color: var(--bg);
+    color: var(--white);
+    height: 750px;
+}
+
+/* Services */
+#logo_company img
+{
+    cursor: pointer;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+#logo_company img:hover
+{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+#category_card
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 380px;
+    height: 45vh;
+    cursor: pointer;
+    transition: all 0.6s ease-in 0s;
+}
+#category_card:hover
+{
+    transform: translateY(-10px);
+    opacity: 0.8;
+}
+
+/* Footer */
+footer
+{
+    border-top: 0.8px solid #ddd;
+}

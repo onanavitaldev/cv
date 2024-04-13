@@ -1,0 +1,12 @@
+/* Variables */
+
+:root
+{
+    --white: #fff;
+    --gray: #ebebeb;
+    --color: #000;
+    --bg: #000;
+    --t: all 0.4 ease-in 0s;
+    --radius: 0.1px;
+    --link: underline;
+}
